@@ -1,0 +1,23 @@
+@font-face{ 
+    font-family: 'S-CoreDream-2Light';
+    src: url('./font/S-Core_Dream_OTF/SCDream2.otf') format('OpenType');
+}
+@font-face{ 
+    font-family: 'S-CoreDream-5heady';
+    src: url('./font/S-Core_Dream_OTF/SCDream4.otf') format('OpenType');
+}
+@font-face{ 
+    font-family: 'S-CoreDream-8heady';
+    src: url('./font/S-Core_Dream_OTF/SCDream8.otf') format('OpenType');
+}
+@font-face{ 
+    font-family: 'Canbera';
+    src: url('./font/canbera/canbera.otf') format('OpenType');
+}
+/*--- font end---*/
+@media screen and (max-width: 1000px){
+    .main_img{
+        width: 100%;
+    }
+}
+@med

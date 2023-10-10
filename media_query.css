@@ -182,3 +182,87 @@
         display: inline;
     }
 }
+/*--- content---*/
+@media screen and (max-width: 1000px){
+    .middle_text{
+        border-bottom: 1px solid #fff;
+        text-align: left;
+        margin: -2300px 80px 0 80px;
+        padding: 0 0 2px 0;
+    }
+    .x{
+        display: inline;
+    }
+    .middle{
+        font-family: 'S-CoreDream-4heady';
+        font-size: 12px;
+        display: inline;
+        color:#fff;
+    
+    }
+    .arrow{
+        text-align: right;
+        margin: -30px 90px 0 0;
+    }
+    .click_text{
+        font-family: 'S-CoreDream-2Light';
+        color: #fff;
+        font-size: 16px;
+        margin: 200px 0 20px 80px;
+        letter-spacing: 1px;
+    }
+    .click_content_1{
+        margin: 20px 20px 0 80px;
+        display: inline-block;
+    }
+    .click_content_2{
+        margin: 20px 20px 0 0;
+        display: inline-block;
+    }
+    .click_content_3{
+        margin: 0 0 20px 0;
+    }
+    .clock_text_3and4{
+        display: inline-block;
+    }
+    .click_content_5, .click_content_9, .click_content_12, .click_content_14{
+        margin: 20px 0 0 80px;
+        display: inline-block;
+    }
+    .click_content_6, .click_content_7, .click_content_8{
+        margin: 0 0 0 18px;
+        display: inline-block;
+    }
+    .click_content_10, .click_content_11, .click_content_15, .click_content_16{
+        margin: 0 0 0 20px;
+        display: inline-block;
+    }
+    .click_content_13{
+        margin: 0 0 0 24px;
+        display: inline-block;
+    }
+}
+/*---fin---*/
+@media screen and (max-width: 1000px){
+    .green_background{
+        margin: 150px 0 0 0;
+        border: 280px solid #006D62;
+        background-attachment: fixed;
+    }
+    .good_bye{
+        width: 95%;
+        height: auto;
+        overflow: hidden;
+        margin: -421px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .good_bye img{
+        max-width: 95%;
+        height: auto;
+        display: inline;
+        text-align: center;
+    }
+}

@@ -51,13 +51,12 @@ body{
     height: auto;
     text-align: center;
     overflow: hidden;
-    margin: 1% 0 0 0;
+    margin: 1% auto 0 auto;
 }
 .main_img img{
     max-width: 100%;
     height: auto;
     display: inline;
-    text-align: center;
 }
 .name{
     font-family: 'S-CoreDream-4heady';

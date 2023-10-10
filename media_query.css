@@ -15,7 +15,7 @@
     src: url('./font/canbera/canbera.otf') format('OpenType');
 }
 /*--- font end---*/
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1000px){
     .top_text{
         border-bottom: 1px solid #000;
         padding: 0 0 2px 0;
@@ -26,6 +26,159 @@
     .top{
         font-family: 'S-CoreDream-4heady';
         font-size: 10px;
+        display: inline;
+    }
+    .hi{
+        font-family: 'S-CoreDream-2Light';
+        color: #00897F;
+        font-size: 18px;
+        margin: 60px 0 0 80px;
+    }
+    .title{
+        font-family: 'S-CoreDream-8heady';
+        color: #00897F;
+        font-size: 98px;
+        margin: -20px 0 0 80px;
+    }
+    .main_img{
+        width: 90%;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+        margin: 1% auto 0 auto;
+    }
+    .main_img img{
+        max-width: 100%;
+        height: auto;
+        display: inline;
+    }
+    .name{
+        font-family: 'S-CoreDream-4heady';
+        color: #000;
+        font-size: 18px;
+        letter-spacing: 4px;
+        margin: -90px 0 0 80px;
+    }
+}
+/*--- introduction---*/
+@media screen and (max-width: 1000px){
+    .me_background{
+        width: 50%;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+        margin: 200px 0 0 50px;
+    }
+    .me_background img{
+        max-width: 100%;
+        height: auto;
+        display: inline;
+        text-align: center;
+    }
+    .me_gif{
+        width: 50%;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+        margin: -320px 0 0 50px;
+    }
+    .me_gif img{
+        max-width: 100%;
+        height: auto;
+        display: inline;
+        text-align: center;
+    }
+    .line{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+        margin: -295px 0 0 30px;
+    }
+    .line img{
+        max-width: 100%;
+        height: auto;
+        display: inline;
+        text-align: center;
+    }
+    .introduction_title{
+        font-family: 'S-CoreDream-2Light';
+        color: #00897F;
+        font-size: 24px;
+        margin: -330px -270px 20px 0;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    .in_content{
+        color: #000;
+        font-size: 18px;
+        text-align: center;
+        margin: 10px 0 0 280px;
+    }
+    .in_content2{
+        color: #000;
+        font-size: 18px;
+        text-align: center;
+        margin: 10px 0 0 405px;
+    }
+    .in_content3{
+        color: #000;
+        font-size: 18px;
+        text-align: center;
+        margin: 10px 0 0 330px;
+    } 
+    .in_title_2{
+        font-family: 'S-CoreDream-2Light';
+        color: #00897F;
+        font-size: 24px;
+        margin: 30px -240px 20px 0;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    .text-line{
+        font-family: 'S-CoreDream-4heady';
+        font-size: 14px;
+        margin: -12px auto 0 545px;
+        text-align: left;
+    }
+    .skill{
+        font-family: 'S-CoreDream-2Light';
+        color: #00897F;
+        font-size: 24px;
+        letter-spacing: 3px;
+        text-align: center;
+        margin: 60px 320px 20px 130px;
+        display: inline-block;
+    }
+    .thing{
+        font-family: 'S-CoreDream-2Light';
+        color: #00897F;
+        font-size: 24px;
+        letter-spacing: 3px;
+        text-align: center;
+        display: inline-block;
+        margin: 60px 0 20px 0;
+    }
+    .skill_group{
+        margin: 0 0 0 150px;
+        display: inline;
+    }
+    .skill_img{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+        display: inline;
+        margin: 0 10px 0 0;
+    }
+    .skill_img img{
+        max-width: 100%;
+        height: auto;
+        display: inline;
+        text-align: center;
+    }
+    .thing_group{
+        margin: 0 0 0 76px;
         display: inline;
     }
 }

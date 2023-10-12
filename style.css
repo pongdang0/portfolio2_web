@@ -4,7 +4,7 @@ html{
 }
 body{
     height: 100%;
-    margin:0;
+    margin: 0;
 }
 /*---font---*/
 @font-face{ 
@@ -277,10 +277,10 @@ body{
     margin: 0 0 0 24px;
     display: inline-block;
 }
-.green_background{
+.green_background hr{
+    border: 400px solid #00897F;
     margin: 150px 0 0 0;
-    border: 480px solid #006D62;
-    background-attachment: fixed;
+    width: 100%;
 }
 .good_bye{
     width: 81%;

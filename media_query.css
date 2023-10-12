@@ -244,10 +244,10 @@
 }
 /*---fin---*/
 @media screen and (max-width: 1000px){
-    .green_background{
+    .green_background hr{
+        border: 400px solid #00897F;
         margin: 150px 0 0 0;
-        border: 280px solid #006D62;
-        background-attachment: fixed;
+        width: 100%;
     }
     .good_bye{
         width: 95%;

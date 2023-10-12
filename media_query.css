@@ -245,7 +245,7 @@
 /*---fin---*/
 @media screen and (max-width: 1000px){
     .green_background hr{
-        border: 400px solid #00897F;
+        border: 300px solid #00897F;
         margin: 150px 0 0 0;
         width: 100%;
     }
